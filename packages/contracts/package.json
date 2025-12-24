@@ -1,1 +1,19 @@
-
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.0",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0",
+    "@zama-fhevm/hardhat-plugin": "^0.1.4"
+  },
+  "dependencies": {
+    "@zama-fhevm/contracts": "^0.3.0"
+  }
+}
